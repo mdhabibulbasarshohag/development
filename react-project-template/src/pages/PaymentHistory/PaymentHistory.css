@@ -1,0 +1,376 @@
+/* common css start  */
+
+.sh--common--bg--body {
+    background-image: url(../../images/sh-get-started-bg.png);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.sh--common--header--title {
+    color: var(--Basic-White, #FFF);
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.sh--common--sub--title {
+    color: var(--Blue-Grey-300, #DFE3E8);
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.sh--common--btn {
+    width: 100%;
+    color: var(--Blue-Grey-300, #DFE3E8);
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    text-transform: capitalize;
+    padding: 18px 23px;
+    border-radius: 12px;
+    border: 1.4px solid var(--gradient-light, rgba(255, 255, 255, 0.47));
+    background: linear-gradient(225deg, #18CAAE 14.89%, #83258D 85.85%);
+}
+
+
+.sh--common--btn:hover {
+    box-shadow: 0px 0px 12px 4px rgba(46, 215, 206, 0.50);
+}
+
+
+.sh--common--svg {
+    width: 100%;
+    height: 100%;
+}
+
+/* common css end  */
+
+
+
+
+
+.sh--create--your--account--section {
+    /* margin: 100px 0; */
+    padding: 150px 0;
+}
+
+
+.sh--create--your--account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.sh--create--your--account--header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+
+.sh--create--your--account--title {
+    margin-right: 32px;
+}
+
+
+.sh--create--your--account--title--img {
+    width: 156px;
+    height: 132px;
+}
+
+
+.sh--create--your--account--title--img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.sh--create--your--account--row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+    border-radius: 12px;
+    border: 1.4px solid var(--gradient-light, rgba(255, 255, 255, 0.47));
+    background: rgba(255, 255, 255, 0.02);
+    box-shadow: 0px 0px 12px 4px rgba(46, 215, 206, 0.50);
+}
+
+
+
+
+.sh--create--your--account--col--body {
+    min-width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.sh--create--your--account--form--title {
+    margin-bottom: 60px;
+}
+
+
+.sh--create--your--account--form--group {
+    position: relative;
+}
+
+.sh--create--your--account--form--group label {
+    position: absolute;
+    left: 20px;
+    top: -14px;
+    color: var(--Blue-Grey-400, #C4CDD5);
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #070D0E;
+    padding: 4px 16px;
+}
+
+.sh--create--your--account--form--group input {
+    width: 100%;
+    color: var(--Blue-Grey-800, #212B36);
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 28px 48px;
+    border-radius: 8px;
+    border: none;
+    background: #070D0E;
+    box-shadow: 0px 0px 4px 0px rgba(46, 215, 206, 0.50);
+}
+
+
+.sh--create--your--account--form--button {
+    margin-top: 30px;
+    width: 100%;
+}
+
+
+.sh--form--checkBox--span {
+    color: var(--Primary-Purpel, #83258D);
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+
+.sh--login--form--link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.sh--login--form--link--a {
+    color: var(--Primary-Green, #18CAAE);
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+
+
+/* contact  start */
+
+.sh--contact--row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    gap: 24px;
+}
+
+
+.sh--contact--col {
+    padding: 48px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.02);
+}
+
+
+.sh--contact--col:hover {
+    box-shadow: 0px 0px 6px 0px rgba(46, 215, 206, 0.50);
+}
+
+
+.sh--contact--box {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+}
+
+.sh--contact--box--svg {
+    width: 58px;
+    height: 58px;
+
+    border: #83258D 1px solid;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.sh--contact--box--title {
+    margin-left: 24px;
+}
+
+.sh--contact--box--title h4 {
+    color: #FFF;
+    font-family: "Plus Jakarta Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.sh--contact--Locality {
+    margin-top: 64px;
+}
+
+.sh--contact--Locality a {
+    color: var(--Primary-Green, #18CAAE);
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+
+/* contact  end */
+
+/* payment history start */
+
+.sh--payment--history--body {
+    padding: 96px;
+    position: relative;
+    width: 100%;
+    border-radius: 12px;
+    border: 1.4px solid var(--gradient-light, rgba(255, 255, 255, 0.47));
+    background: rgba(255, 255, 255, 0.02);
+    box-shadow: 0px 0px 12px 4px rgba(46, 215, 206, 0.50);
+    margin-top: 50px;
+}
+
+.sh--payment--history--title--img {
+    width: 156px;
+    height: 132px;
+    position: absolute;
+    top: -113px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sh--payment--history--title--img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.sh--payment--history--table table {
+    width: 100%;
+}
+
+.sh--payment--history--table th,
+.sh--payment--history--table td {
+    border: 1px dashed rgba(255, 255, 255, 0.20);
+    padding: 8px;
+}
+
+.sh--payment--history--table th {
+    font-weight: bold;
+    width: 25%;
+    color: #83258D;
+    font-family: "Plus Jakarta Sans";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.sh--payment--history--table td {
+    color: #D9D9D9;
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 24px 0;
+}
+
+
+.sh--payment--history--svg--title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.sh--payment--history--svg {
+    width: 54px;
+    height: 54px;
+    margin-right: 16px;
+}
+
+.sh--payment--history--title p {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.sh--payment--history--title h4 {
+    color: #83258D;
+    font-family: "Plus Jakarta Sans";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* payment history end */

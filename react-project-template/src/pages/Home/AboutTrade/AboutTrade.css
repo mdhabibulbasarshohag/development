@@ -1,0 +1,46 @@
+/* About Start Hare */
+.about--tradeBotWrapper {
+    padding: 270px 0 130px 0;
+    background: url(../images/aboutSectionBg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.nr--aboutBot--main--wrapper {
+    max-width: 1430px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 92px 115px;
+    border-radius: 12px;
+    border: 1.4px solid var(--gradient-light, rgba(255, 255, 255, 0.47));
+    background: rgba(255, 255, 255, 0.02);
+    box-shadow: 0px 0px 12px 4px rgba(46, 215, 206, 0.50);
+    position: relative;
+}
+
+.nr--aboutBot--content--wrapper {
+    margin-top: 48px;
+}
+
+.nr--aboutBot--content--wrapper ul {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.roboto--main--photos {
+    width: 330px;
+    height: 280px;
+    position: absolute;
+    top: -247px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.roboto--main--photos img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* About end Hare */

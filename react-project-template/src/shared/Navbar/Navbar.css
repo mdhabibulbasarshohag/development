@@ -1,0 +1,122 @@
+/* Common Navbar start hare */
+.navbar--wrapper {
+    padding: 25px 0;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 111;
+    backdrop-filter: blur(2px);
+}
+
+.navbar--main--wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nr--logo {
+    color: #FFF;
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.navbar--menus--wrapper {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.nr--login--btn a {
+    padding: 10px 42px;
+    border-radius: 12px;
+    border: 1.4px solid #FFF;
+    color: var(--Blue-Grey-300, #DFE3E8);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-transform: capitalize;
+}
+
+.nr--getStrat--btn a {
+    padding: 10px 27px;
+    color: #DFE3E8;
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-transform: capitalize;
+    border-radius: 12px;
+    border: 1.4px solid var(--gradient-light, rgba(255, 255, 255, 0.47));
+    background: linear-gradient(225deg, #18CAAE 14.89%, #83258D 85.85%);
+    box-shadow: 0px 0px 12px 4px rgba(46, 215, 206, 0.50);
+}
+
+.menu--wrapper--clickble {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.menu--wrapper--clickble svg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.menu--wrapper--btn {
+    position: relative;
+}
+
+.menuHeader--munu--wrappers {
+    padding: 30px;
+    border-radius: 12px;
+    border: 1.4px solid var(--gradient-light, rgba(255, 255, 255, 0.47));
+    background: #020F0D;
+    box-shadow: 0px 0px 12px 4px rgba(46, 215, 206, 0.50);
+    margin-top: 55px;
+    position: absolute;
+    right: -70px;
+    transition: right linear 0.3s;
+}
+
+
+
+.menuHeader--munu--wrappers ul li a {
+    display: flex;
+    width: 408px;
+    justify-content: space-between;
+    align-items: start;
+    color: #DFE3E8;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    position: relative;
+    padding: 22px 0;
+}
+
+.menuHeader--munu--wrappers ul li a::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1.5px;
+    opacity: 0.9;
+    background: rgba(255, 255, 255, 0.47);
+    box-shadow: 0px 0px 12px 4px rgba(46, 215, 206, 0.50);
+}
+
+.right--icon {
+    width: 32px;
+    height: 32px;
+}
+
+.right--icon svg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Common Navbar End hare */

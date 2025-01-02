@@ -1,0 +1,124 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+strong,
+i,
+ol,
+ul,
+li,
+form,
+label,
+footer,
+header,
+menu,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+button:focus,
+a:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+:root {
+  --primary-white: '#FFF';
+  --primary-font: "Plus Jakarta Sans", serif;
+}
+
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background: #020809;
+  font-family: "Plus Jakarta Sans", serif;
+}
+
+/* Common Css Class Start Hare */
+.profit--to--day--main h5 span {
+  color: #F9FAFB;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+  text-transform: capitalize;
+}
+
+.tweentyPxText {
+  color: #919EAB;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.mainHeader {
+  color: #FFF;
+  font-size: 112px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 121px;
+}
+
+.tweentyFourPx {
+  color: #DFE3E8;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  text-transform: capitalize;
+}
+
+.subHeader {
+  color: #FFF;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.aboutBotTweentyFourPx {
+  color: #DFE3E8;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 40px;
+  text-transform: capitalize;
+}
+
+.fiftySixPx--texts {
+  color: #AB4819;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+/* Common Css Class End Hare */
